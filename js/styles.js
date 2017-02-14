@@ -6,8 +6,8 @@
 
 $(document).ready(function() {
   $("p").click(function() {
-    $(".showing").slideToggle("fast");
-    $(".hidden").slideToggle(6000);
+    $(".showing").slideToggle("slow");
+    $(".hidden").slideToggle(2500);
   });
 });
 
